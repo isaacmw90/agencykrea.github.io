@@ -388,23 +388,4 @@ section.home {
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     }
 }
-/* ... Otros estilos ... */
-
-/* Consulta de medios para tamaños de pantalla más pequeños (móviles) */
-@media (max-width: 768px) {
-    .logo {
-        top: 10px;
-        left: 10px;
-        font-size: 1.5rem;
-    }
-
-    h1 {
-        font-size: 1.8rem;
-    }
-
-    p {
-        font-size: 1rem;
-        margin: 10px 0;
-    }
-}
 
