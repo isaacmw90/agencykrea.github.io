@@ -333,13 +333,6 @@ section.home {
 
 .contact-info .info-box .details h4 {
     color: var(--secondary-color);
-}
-/* Ajusta el tamaño del texto para dispositivos móviles */
-@media (max-width: 768px) {
-    .home-content h1 {
-        font-size: 2rem; /* Cambia el tamaño del título para móviles */
-    }
-}
 
 /* Agrega una sombra al texto para mejorar la legibilidad */
 .home-content h1 {
