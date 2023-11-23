@@ -332,7 +332,7 @@ section.home {
 
 @media (max-width: 1068px) {
     .home-img {
-        display: none;
+        /*display: none;*/
     }
 
     .logo {
@@ -379,7 +379,7 @@ section.home {
     }
 }
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
     .services {
         grid-template-columns: 1fr;
     }
