@@ -315,6 +315,17 @@ section.home {
     align-items: flex-start;
     margin-bottom: 40px;
 }
+/* AKKI Estilos para pantallas más pequeñas (menos de 768px de ancho) */
+@media (max-width: 768px) {
+    .title h1 {
+        font-size: 1.8rem; /* Reduzco el tamaño del título */
+    }
+
+    .title p {
+        font-size: 1rem; /* Reduzco el tamaño del párrafo */
+    }
+}
+
 
 .contact-info .info-box .contact-icon {
     width: 20px;
