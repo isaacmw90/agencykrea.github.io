@@ -88,7 +88,13 @@ section.home {
     background-position: center;
     background-repeat: no-repeat;
 }
-
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .toggle {
+        width: 40px; /* Reducir el ancho del botón */
+        height: 40px; /* Reducir la altura del botón */
+        background-size: 20px; /* Reducir el tamaño del ícono */
+    }
 /* NAVIGATION */
 .navigation {
     position: fixed;
